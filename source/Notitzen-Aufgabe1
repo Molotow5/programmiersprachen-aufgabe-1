@@ -1,0 +1,34 @@
+int main() {
+	int a = 9;
+	bool b = false;
+	char c = 'a';
+	double d = 1.3;
+	int const five = 5;
+	double e = a/two;       #Es wurde keine Variable Namens 'two' initialisiert
+
+	five = d;		#Eine Konstante lässt sich nicht mehr ändern
+
+	return 0;
+}
+Typen:
+int, bool, char, double, double
+
+Variablen:
+a, b, c, d, five, e, (two)
+
+Werte:
+9, false, 'a', 1.3; 5, 0
+
+const:
+Das Schlüsselwort const sorgt dafür das eine Variabel zu einer nicht mehr
+veränderbaren Konstante wird.
+
+Typkonvertierung:
+Bei einer Typkonvertierung werden die Werte von Variablen welche bereits
+einen bestimmten Typ haben in einen anderen Typ ungewandelt.
+Dabei kann es zu Problemen bei der Konvertierung geben da zum Beispiel
+bei der Konvertierung von float zu int das Problem besteht das der Datentyp int
+nur ganze Zahlen darstellen kann.
+
+Initialisierung:
+
