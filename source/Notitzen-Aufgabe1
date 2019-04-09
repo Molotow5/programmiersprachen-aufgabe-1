@@ -1,3 +1,5 @@
+Aufgabe 1.4:
+
 int main() {
 	int a = 9;
 	bool b = false;
@@ -11,7 +13,7 @@ int main() {
 	return 0;
 }
 Typen:
-int, bool, char, double, double
+int, bool, char, double
 
 Variablen:
 a, b, c, d, five, e, (two)
@@ -30,5 +32,33 @@ Dabei kann es zu Problemen bei der Konvertierung geben da zum Beispiel
 bei der Konvertierung von float zu int das Problem besteht das der Datentyp int
 nur ganze Zahlen darstellen kann.
 
+Aufgabe 1.5:
+
 Initialisierung:
+Eine Initialisierung ist ein Boot- oder Ladevorgang.
+Dies kann sich auf ein Programm oder einzelne Komponenten wie Variablen
+beziehen.
+Ein Beispiel wäre wenn der Compiler durch das Script geht und die einzelnen
+Variablen Initialisiert und ihnen ihre Werte zuweist.
+
+Zuweisung:
+Mit der Zuweisung ist wortwörtlich die Zuweisung von Werten zu den deklarierten
+Variablen gemeint.
+Beispiel: int Braun = 5
+
+Aufgabe 1.6:
+
+Deklaration:
+Kündigt eine Variable, Funktion oder Klasse an. Der Compiler weis dann das es
+solch eine Belegung gibt. Dies ist ganz nützlich wenn externe Variablen dessen
+Definition sich wo anders befindet hinzugezogen werden.
+
+Definition:
+Die Definition beschreibt was sich hinter einer deklarierten Variabel, Klasse
+oder Funktion verbirgt. Für Variablen wäre es eine Wertzuweisung, für Funktionen
+das Script welches sie ausführen und für Klassen wären es Instanzen, Methoden und
+Konstruktor.
+
+Aufgabe 1.7:
+
 
