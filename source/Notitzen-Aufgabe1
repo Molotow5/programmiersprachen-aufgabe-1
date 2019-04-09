@@ -61,4 +61,23 @@ Konstruktor.
 
 Aufgabe 1.7:
 
+#include <iostream>
 
+int var = 3;                     #Global in Script bekannt(außer Funktionsdeklarationen)
+
+double sum(double a, double b)   #a und b nur in Funktionsdeklaration bekannt
+{
+	return a + b;
+}
+int square(int var)              #Dieses var nur in Deklaration gültig
+{
+	return var * var;
+}
+int main()
+{
+	for (int i = 0; i != 100; ++i){     #i ist nur in for Schleife bekannt
+		std::cout << "i^2 = " << square(i) << '\n';
+		std::cout << "i+1 = " << sum(i,i) << '\n';
+	}
+	return 0;
+}
