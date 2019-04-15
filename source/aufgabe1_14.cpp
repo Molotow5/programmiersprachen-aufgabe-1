@@ -15,7 +15,7 @@ bool is_prime(int zahl){
     }
 }
 
-TEST_CASE("describe_gcd", "[gcd]"){
+TEST_CASE("describe_is_prime", "[is_prime]"){
     REQUIRE(is_prime(1) == false);
     REQUIRE(is_prime(2) == true);
     REQUIRE(is_prime(-13) == false);

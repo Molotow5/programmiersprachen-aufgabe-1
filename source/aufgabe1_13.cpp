@@ -24,7 +24,7 @@ int factorial(int zahl){
     return ergebnis;
 }
 
-TEST_CASE("describe_gcd", "[gcd]"){
+TEST_CASE("describe_factorial", "[factorial]"){
     REQUIRE( factorial(5) == 120);
     REQUIRE( factorial(8) == 40320);
     REQUIRE( factorial(0) == 0);

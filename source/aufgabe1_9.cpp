@@ -17,7 +17,7 @@ int checksum(int zahl){
   }
 }
 
-TEST_CASE("describe_gcd", "[gcd]"){
+TEST_CASE("describe_checksum", "[checksum]"){
   REQUIRE(checksum(0) == 0);
   REQUIRE(checksum(1) == 1);
   REQUIRE(checksum(119606) == 23);
