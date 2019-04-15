@@ -28,7 +28,7 @@ TEST_CASE("describe_factorial", "[factorial]"){
     REQUIRE( factorial(5) == 120);
     REQUIRE( factorial(8) == 40320);
     REQUIRE( factorial(0) == 0);
-    //REQUIRE( factorial(-11) == -39916800);
+    REQUIRE( factorial(-11) == 0);
 }
 
 int main(int argc, char* argv[])

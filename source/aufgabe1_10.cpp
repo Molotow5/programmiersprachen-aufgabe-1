@@ -12,7 +12,7 @@ int sum_multiples(){
     return sum;
 }
 
-TEST_CASE("describe_gcd", "[gcd]"){
+TEST_CASE("describe_sum_multiples", "[sum_multiples]"){
 REQUIRE(sum_multiples() == 234168);
 }
 
