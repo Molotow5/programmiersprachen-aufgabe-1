@@ -1,0 +1,22 @@
+Quellcode:
+Abfolge von Programmanweisungen in einer höheren Programmiersprache geschrieben.
+
+Linker:
+Verbindet einzelne Programmmodule zu einem ausführbahren Programm.
+
+Compiler:
+Übersetzt den Quellcode in eine für den Computer verständliche Sprache.
+
+Funktionssignatur:
+Wird als Unterscheidungsmerkmal von anderen Funktionen genutzt.
+Zu ihr gehören Rückgabetyp, Name der Funktion und übergebene Parameter.
+
+Objektcode:
+Besteht hauptsächlich aus Maschinencode für die jeweilige Architektur.
+Ein zwischenergenbnis eines Compiliervorgangs bevor durch einen Linker der Code
+ausführbar gemacht wird.
+
+Header:
+Werden oben im Code included. Sind Biblitheken welche Deklarationen enthalten.
+
+
